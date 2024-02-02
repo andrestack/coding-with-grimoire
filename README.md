@@ -1,4 +1,4 @@
-# The Road to Full Stack in the age of Bots and Humans 🤖 🙍
+## The Road to Full Stack in the age of Bots 🤖 and Humans 🙍 
 
 I started to learn how to code at the age of 40, at the age of bots and LLM that spit the code in front of you! I shall not be tamed by the laziness, but instead will use it to my benefit. 
 Therefore I shall commit to the following:
