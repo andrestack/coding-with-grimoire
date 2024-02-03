@@ -64,16 +64,24 @@ document.addEventListener("keydown", (event) => {
 
 document.addEventListener("keyup", (event) => {
   leftPaddleSpeed = 0;
-  rightPaddleSpeed= 0
+  rightPaddleSpeed = 0;
 });
 
-function updatePaddlePosition() {
+function leftPaddleMovement() {
   leftPaddleY += leftPaddleSpeed;
   leftPaddleY = Math.max(leftPaddleY, 0);
   leftPaddleY = Math.min(leftPaddleY, canvas.height - paddleHeight);
+}
+
+function rightPaddleMovement() {
   rightPaddleY += rightPaddleSpeed;
   rightPaddleY = Math.max(rightPaddleY, 0);
   rightPaddleY = Math.min(rightPaddleY, canvas.height - paddleHeight);
+}
+
+function updatePaddlePosition() {
+  leftPaddleMovement();
+  rightPaddleMovement();
 }
 
 function draw() {
