@@ -13,6 +13,15 @@ let ballX = canvas.width / 2;
 let ballY = canvas.height / 2;
 let ballRadius = 10;
 
+function drawPaddle() {
+  context.fillStyle = "#000";
+  context.fillRect(paddleHeight, paddleWidth, paddleX, paddleY);
+}
 
-
-
+function drawBall() {
+  context.beginPath();
+  context.arc(ballX, ballY.ballRadius, 0, Math.PI * 2);
+  context.fillStyle = "#000";
+  context.fill();
+  context.closePath();
+}

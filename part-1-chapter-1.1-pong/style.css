@@ -9,19 +9,19 @@ body {
 
 .score-board {
   align-items: center;
-  position: absolute;
+  position: fixed;
   background-color: aquamarine;
   border: 2px solid black;
   font-size: 30px;
   width: 200px;
   height: 100px;
-  justify-content: baseline;
-  top: 5%;
+  top: 10px;
   border-radius: 10px;
+  overflow: none;
 }
 
 canvas {
   border: 2px solid black;
-  
+  position: fixed;
   background-color: rgb(234, 226, 214);
 }
