@@ -16,13 +16,12 @@ body {
   width: 200px;
   height: 100px;
   justify-content: baseline;
-  top: 10%;
+  top: 5%;
   border-radius: 10px;
 }
 
 canvas {
   border: 2px solid black;
-  width: 800px;
-  height: 400px;
+  
   background-color: rgb(234, 226, 214);
 }
